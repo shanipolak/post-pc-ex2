@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edtNewItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_item_margin"
+        android:layout_margin="20dp"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/edittext_brd" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/lstTodoItems"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_height"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.32"
+        android:background="@drawable/list_brd" >
+
+    </ListView>
+
+</LinearLayout>
